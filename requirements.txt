@@ -1,0 +1,7 @@
+transformers
+pytorch-crf
+conllu
+seqeval
+sklearn
+matplotlib
+pandas
