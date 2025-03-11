@@ -26,3 +26,6 @@ model_training_bert_crf.ipynb - Обучение и валидация моде�
 ```
 py ./PiiMasker.py
 ```
+
+# Обученная модель 
+https://github.com/IstariTM/pii_detecting_and_masking_model/releases/tag/v0.0.1
