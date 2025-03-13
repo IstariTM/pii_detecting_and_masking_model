@@ -2,6 +2,6 @@ transformers
 pytorch-crf
 conllu
 seqeval
-sklearn
+scikit-learn
 matplotlib
 pandas
