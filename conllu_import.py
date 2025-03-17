@@ -1,10 +1,10 @@
 from conllu import parse_incr
 
 #######################################
-# 1) ЧТЕНИЕ .conllu ФАЙЛА NERUS-LENTA
+# ЧТЕНИЕ .conllu ФАЙЛА NERUS
 #######################################
 
-def read_nerus_conllu_limited(file_path, max_sents=10000):
+def read_nerus_conllu_limited(file_path, max_samples=10000):
     sentences = []
     
     with open(file_path, "r", encoding="utf-8") as f:
@@ -27,7 +27,7 @@ def read_nerus_conllu_limited(file_path, max_sents=10000):
             if tokens:
                 sentences.append((tokens, tags))
             
-            if max_sents != 0 and i >= max_sents:
+            if max_samples != 0 and i >= max_samples:
                 break
     
     return sentences
